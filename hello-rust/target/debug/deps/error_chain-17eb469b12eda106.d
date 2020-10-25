@@ -1,0 +1,11 @@
+/home/a1c3/learning-rust/hello-rust/target/debug/deps/error_chain-17eb469b12eda106.rmeta: /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/lib.rs /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/quick_error.rs /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/error_chain.rs /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/quick_main.rs /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/example_generated.rs
+
+/home/a1c3/learning-rust/hello-rust/target/debug/deps/liberror_chain-17eb469b12eda106.rlib: /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/lib.rs /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/quick_error.rs /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/error_chain.rs /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/quick_main.rs /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/example_generated.rs
+
+/home/a1c3/learning-rust/hello-rust/target/debug/deps/error_chain-17eb469b12eda106.d: /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/lib.rs /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/quick_error.rs /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/error_chain.rs /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/quick_main.rs /home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/example_generated.rs
+
+/home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/lib.rs:
+/home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/quick_error.rs:
+/home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/error_chain.rs:
+/home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/quick_main.rs:
+/home/a1c3/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.10.0/src/example_generated.rs:
