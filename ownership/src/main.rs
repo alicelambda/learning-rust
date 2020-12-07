@@ -19,3 +19,7 @@ fn take_own_and_give(some: String) -> String {
 fn calculate_length(s: &String) -> usize {
     s.len()
 }
+
+fn change(some: &String) {
+    some.push_str(", world");
+}
