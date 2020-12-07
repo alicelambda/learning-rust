@@ -28,4 +28,29 @@ fn change(some: &mut String) {
 }
 
 
+fn first_word(s: &String) -> {
+    let bytes = s.as_bytes();
 
+    //creates iterator
+    //enumerate returns a tuple
+    //
+    for (i, &item) in bytes.iter().enumerate() {
+        if item == b' ' {
+            return &s[0..i];
+        }
+    }
+
+    &s[..]
+}
+
+fn slice() {
+    let s = String::from("hello world");
+
+    let hello = &s[0..5];
+    let world = &s[6..11];
+
+    let fromfrount = &s[..2];
+
+    let toend = &s[4..];
+
+}
