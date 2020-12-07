@@ -5,9 +5,12 @@ fn main() {
     s.push_str(", world!");
     let s2 = s;
     let s2 = take_own_and_give(s2);
-    let s3 = s2.clone();
+    let mut s3 = s2.clone();
     println!("{}", s3);
 
+
+    let mut pog = String::from("hello");
+    change(&mut pog);
     println!("{}", calculate_length(&s3));
 }
 
@@ -20,6 +23,9 @@ fn calculate_length(s: &String) -> usize {
     s.len()
 }
 
-fn change(some: &String) {
+fn change(some: &mut String) {
     some.push_str(", world");
 }
+
+
+
