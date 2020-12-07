@@ -11,6 +11,24 @@ struct Rectangle {
     height: u32,
 }
 
+impl Rectangle {
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+
+    fn can_hold(&self, other: &Rectangle) -> bool {
+        self.width > other.width && self.height > other.height
+    }
+    
+    //associated function
+    fn square(size: u32) -> Rectangle {
+        Rectangle {
+            width: size,
+            height: size,
+        }
+    }
+}
+
 fn main() {
     println!("Hello, world!");
 
@@ -19,6 +37,9 @@ fn main() {
         width: 30,
         height: 50,
     };
+
+    // call associative functions
+    let sq = Rectangle::square(3);
 
     let mut usr1 = User {
         email: String::from("example@example.com"),
@@ -52,7 +73,7 @@ fn main() {
 
     println!(
         "The area of the rectangle is {} square pixels.",
-        area(&rect1)
+        rect1.area()
         );
     println!("rect1 is {:?}", rect1);
 }
