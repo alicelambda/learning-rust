@@ -28,7 +28,7 @@ fn change(some: &mut String) {
 }
 
 
-fn first_word(s: &String) -> {
+fn first_word(s: &str) ->  &str{
     let bytes = s.as_bytes();
 
     //creates iterator
