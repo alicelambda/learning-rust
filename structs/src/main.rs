@@ -5,8 +5,20 @@ struct User {
     active: bool,
 }
 
+#[derive(Debug)]
+struct Rectangle {
+    width: u32,
+    height: u32,
+}
+
 fn main() {
     println!("Hello, world!");
+
+
+    let rect1 = Rectangle {
+        width: 30,
+        height: 50,
+    };
 
     let mut usr1 = User {
         email: String::from("example@example.com"),
@@ -37,6 +49,16 @@ fn main() {
 
     let black = Color(0,0,0);
     let origin = Point(0,0,0);
+
+    println!(
+        "The area of the rectangle is {} square pixels.",
+        area(&rect1)
+        );
+    println!("rect1 is {:?}", rect1);
+}
+
+fn area(rectangle: &Rectangle) -> u32 {
+    rectangle.width * rectangle.height
 }
 
 fn build_user(email: String, username: String) -> User {
